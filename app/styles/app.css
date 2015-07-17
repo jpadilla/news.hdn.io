@@ -13,12 +13,12 @@
 }
 
 .designer-news {
-  background: url('/images/dn@2x.png') no-repeat center left;
+  background: url('/assets/images/dn@2x.png') no-repeat center left;
   background-size: 40px 40px;
 }
 
 .hacker-news {
-  background: url('/images/hn@2x.png') no-repeat center left;
+  background: url('/assets/images/hn@2x.png') no-repeat center left;
   background-size: 40px 40px;
 }
 
@@ -67,4 +67,35 @@
 .campaign {
   line-height: 125%;
   padding: 10px;
+}
+
+@keyframes spinner {
+  to {transform: rotate(360deg);}
+}
+
+@-webkit-keyframes spinner {
+  to {-webkit-transform: rotate(360deg);}
+}
+
+.spinner {
+  min-width: 25px;
+  min-height: 25px;
+  text-align: center;
+  margin: 25px auto;
+}
+
+.spinner:before {
+  content: 'Loading...';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+}
+
+.spinner:not(:required):before {
+  content: '';
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, .3);
+  border-top-color: rgba(0, 0, 0, .6);
+  animation: spinner .6s linear infinite;
+  -webkit-animation: spinner .6s linear infinite;
 }

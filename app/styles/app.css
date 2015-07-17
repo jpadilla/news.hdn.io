@@ -1,0 +1,70 @@
+.source-title {
+  font-size: 38px;
+  font-weight: 100;
+  padding-left: 50px;
+}
+
+.source-title a {
+  color: #bfbfbf;
+}
+
+.source-title a:hover {
+  text-decoration: none;
+}
+
+.designer-news {
+  background: url('/images/dn@2x.png') no-repeat center left;
+  background-size: 40px 40px;
+}
+
+.hacker-news {
+  background: url('/images/hn@2x.png') no-repeat center left;
+  background-size: 40px 40px;
+}
+
+.post-row {
+  padding: 10px 0 10px 0;
+  margin: 10px 0 10px 0;
+  background: #F9F9F9;
+}
+
+.post-title {
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-rendering: optimizeLegibility;
+}
+
+.post-title:visited {
+  color: #CCC;
+}
+
+.post-meta {
+  font-size: 11px;
+  color: #7f7f7f;
+}
+
+.post-meta a {
+  color: #737373;
+}
+
+.footer {
+  padding: 10px;
+  margin: 10px 0;
+  border-top: 1px solid #cccccc;
+  color: #7f7f7f;
+  font-weight: 200;
+  text-rendering: optimizeLegibility;
+}
+
+.last-updated {
+  font-size: 10px;
+  color: #9F9F9F;
+}
+
+.campaign {
+  line-height: 125%;
+  padding: 10px;
+}

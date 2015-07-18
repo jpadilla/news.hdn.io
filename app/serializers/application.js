@@ -11,7 +11,7 @@ export default DS.RESTSerializer.extend({
         points: p.likes,
         author: p.author,
         authorURL: p.author_url,
-        commentsURL: p.comments_url,
+        commentsURL: p.source_url,
         comments: p.comments,
         source: p.source
       };
